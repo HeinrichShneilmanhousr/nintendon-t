@@ -1,0 +1,37 @@
+# Introduction #
+
+
+
+Special steps to build
+
+
+
+# Details #
+
+
+
+To build, in kernel:
+
+```
+ 
+make usb=1 clean
+ 
+make usb=1
+ 
+make clean
+ 
+make
+ 
+```
+
+
+
+In loader:
+
+```
+ 
+make clean
+ 
+make
+ 
+```
